@@ -59,7 +59,7 @@
   <input type="submit" name="login" value="login">  
 </form>
 
-<script> document.getElementById("cs").value = '<?php echo $csrf; ?>' </script> <!-- Assign CSRF token to hidden variable --!>
+<script> document.getElementById("cs").value = '<?php echo $csrf; ?>' </script> <!-- Assign CSRF token to hidden variable -->
                                                                                 
 <!-- retrieve email and password if selected "remember me" in previous enter-->
 
